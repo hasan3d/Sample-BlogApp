@@ -1,4 +1,4 @@
-<h1> Welcome to Sample Blog App</h1>
+<h1> Welcome to My Blog Web App</h1>
 
 <h1>All Articles</h1>
 <ul id="articles">
@@ -9,5 +9,6 @@
 	<% end %>
 
 </ul>
-
+<% if logged_in? %>
 <%= link_to "Create a New Article", new_article_path, class: "new_article" %>
+<% end %>
