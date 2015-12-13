@@ -9,8 +9,7 @@ gem 'coffee-rails', '~> 4.1.0'
 
 # For image uploading
 gem "paperclip"
-gem 'aws-sdk'
-
+gem 'aws-sdk', '< 2.0'
 # For Authentication
 gem 'sorcery'
 # Use jquery as the JavaScript library
