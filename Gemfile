@@ -26,7 +26,7 @@ group :development, :test do
   #gem 'byebug'
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'guard-rspec'
+  gem 'guard-rspec', '>= 4.6.4'
 end
 
 group :development do
