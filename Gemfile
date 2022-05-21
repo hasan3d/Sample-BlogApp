@@ -2,14 +2,14 @@ source 'https://rubygems.org'
 
 
 gem 'rails', '4.2.4'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.4'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 
 # For image uploading
 gem "paperclip"
-gem 'aws-sdk', '< 2.0'
+gem 'aws-sdk', '>= 1.66.0', '< 2.0'
 # For Authentication
 gem 'sorcery'
 # Use jquery as the JavaScript library
@@ -31,7 +31,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.2', '>= 2.2.1'
   gem "pry-rails"
   gem "awesome_print", require:"ap"
 
